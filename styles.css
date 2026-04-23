@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Main container */
+.container {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* LEFT SIDE */
+.left {
+    width: 40%;
+    background-color:#b39ddb;
+    padding: 20px;
+    color:white;
+
+}
+
+/* RIGHT SIDE */
+.right {
+    width: 70%;
+    padding: 20px;
+}
+
+/* Profile image */
+.circle-image{
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    margin:0 auto 15px;
+    object-fit:cover;
+    display: block;
+}
+
+/* Headings */
+h2 {
+    margin: 5px 0;
+    text-align: center;
+}
+
+h3 {
+    border-bottom: 2px solid black; /* underline after heading */
+    padding-bottom: 5px;
+    margin-top: 20px;
+    
+}
+
+/* Paragraph underline (only where needed) */
+.section p {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+/* Skills side-by-side */
+.skills {
+    display: flex;
+    gap: 50px;
+}
+
+/* Lists */
+ul {
+    padding-left: 20px;
+}
+
+/* Text styling */
+p {
+    margin: 5px 0auto;
+}
+
+/* Projects spacing */
+.right p b {
+    display: block;
+    margin-top: 10px;
+}
+.left .resume {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5px;
+}
